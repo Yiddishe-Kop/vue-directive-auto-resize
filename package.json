@@ -5,7 +5,7 @@
   "description": "A Vue directive to auto resize the height of a textarea to its contents as you type.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JayeshLab/vue-resize-text.git"
+    "url": "git+https://github.com/Yiddishe-Kop/vue-directive-auto-resize.git"
   },
   "main": "index.js",
   "scripts": {

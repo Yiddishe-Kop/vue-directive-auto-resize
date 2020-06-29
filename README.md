@@ -1,6 +1,8 @@
 # Vue Auto Resize Directive
 A simple directive to make your textareas height automatically grow as the user types some text.
 
+Try it out live on https://pninim.yiddishe-kop.com.
+
 ![demo](./demo.gif)
 
 ## Installation
