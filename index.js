@@ -8,7 +8,9 @@ const handler = e => {
 
 export default {
   bind(el) {
-    el.addEventListener('input', handler)
+    ['input', 'change'].forEach(event => {
+      el.addEventListener(event, handler)
+    })
   },
 
   inserted(el) {
@@ -16,6 +18,8 @@ export default {
   },
 
   unbind(el) {
-    el.removeEventListener('input', handler)
+    ['input', 'change'].forEach(event => {
+      el.removeEventListener(event, handler)
+    })
   }
 }
